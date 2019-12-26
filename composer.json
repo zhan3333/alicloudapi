@@ -1,0 +1,23 @@
+{
+    "name": "zhan3333/alicloudapi",
+    "description": "ali cloud api",
+    "authors": [
+        {
+            "name": "zhan",
+            "email": "grianchan@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zhan3333\\AliCloudApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zhan3333\\AliCloudApi\\Test": "tests/"
+        }
+    }
+}

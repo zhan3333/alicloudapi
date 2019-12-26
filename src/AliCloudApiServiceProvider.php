@@ -23,7 +23,7 @@ class AliCloudApiServiceProvider extends ServiceProvider
             return new AliVerifyIdCardService(
                 config('alicloudapi.verify_id_card.app_code'),
                 config('alicloudapi.verify_id_card.log_channel'),
-                config('alicloudapi.verify_id_card.fake_type'),
+                config('alicloudapi.verify_id_card.fake_type')
             );
         });
     }

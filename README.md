@@ -1,5 +1,9 @@
 # 阿里云api Laravel 相关
 
+## 安装
+
+`composer require zhan3333/alicloudapi`
+
 ## 配置
 
 ```dotenv
